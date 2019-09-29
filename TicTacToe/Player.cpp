@@ -24,8 +24,5 @@ Player::Player(PlayerType playerType, std::string playernName, char playableSymb
 }
 
 
-Player::~Player() 
-{
-
-}
+Player::~Player() = default;
 
